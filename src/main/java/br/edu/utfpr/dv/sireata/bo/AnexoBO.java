@@ -37,8 +37,8 @@ public class AnexoBO {
 		if(anexo.getArquivo() == null){
 			throw new Exception("Efetue o envio do arquivo.");
 		}
-		if(anexo.getDescricao().isEmpty()){
-			throw new Exception("Informe a descrição do anexo.");
+		else{
+			System.out.println("Informe a descrição do anexo.");
 		}
 	}
 	
